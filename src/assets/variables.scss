@@ -1,0 +1,19 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/functions";
+
+//My palette
+$peach: #EFC69B;
+$red: #AF1B3F;
+$violet: #473144;
+$khaki: #CCB69B;
+$buff: #DF9B6D;
+
+// Set your colors etc..
+$primary: $red;
+$link: $violet;
+$navbar-item-active-color: $red;
+$navbar-dropdown-item-active-color: $red;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
